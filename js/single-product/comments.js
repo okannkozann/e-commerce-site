@@ -1,4 +1,5 @@
-const commentReviewsFunc = function () {
+
+ const commentReviewsFunc = function () {
   const commentStarsDOM = document.querySelectorAll(
     ".comment-form-rating .star"
   );
@@ -66,7 +67,7 @@ const addNewCommentFunc = () => {
                     <p>${item.text}</p>
                 </div>
             </div>
-    </li>
+        </li>
         `;
     });
     commentListDOM.innerHTML = result;

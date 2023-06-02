@@ -38,5 +38,5 @@ document.addEventListener("click", (e) => {
 
 setTimeout(() => {
   modalDialogDOM.classList.add("show");
-}, 3000);
+}, 30000);
 //! modal dialog end

@@ -1,3 +1,5 @@
+
+
 function productRoute() {
   const resultItemDOM = document.querySelectorAll(
     ".search-results .result-item"
